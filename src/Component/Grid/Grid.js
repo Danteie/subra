@@ -29,8 +29,8 @@ class Grid extends Component {
                 <div class="div2"><img src={image1} alt="slika1" className="img-box"/></div>
                 <div class="div3"><img src={image2} alt="slika2" className="img-box"/></div>
                 <div class="div4"><Text title={this.state.title2} text={this.state.text2} /></div>
-                <div class="div5"><img src={image3} alt="slika3" className="img-box"/></div>
-                <div class="div6"><img src={image4} alt="slika4" className="img-box"/></div>
+                <div class="div5"><img src={image3} alt="slika3" className="img-box desktop"/></div>
+                <div class="div6"><img src={image4} alt="slika4" className="img-box desktop"/></div>
             </div> 
         );
     }      
