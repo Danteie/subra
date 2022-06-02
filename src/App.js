@@ -24,8 +24,10 @@ function App() {
         </div>
         <Title/>
       </div>
-      <Grid/>
-      <Test/>
+      <div className='content'>
+        <Grid/>
+        <Test/>
+      </div>
       {/* <Images/> */}
       <div className='footer'>
         <Footer/>
