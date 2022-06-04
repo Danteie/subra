@@ -1,39 +1,22 @@
 import './App.css';
-//Commponent
-//Home
-import Logo from './Component/Logo/Logo'
-import Menu from './Component/Menu/Menu'
-import Title from './Component/Title/Title'
-//Grid
-import Grid from './Component/Grid/Grid'
-//Images Blcok
-// import Images from './Component/Images/Images'
-//Footer
-import Footer from './Component/Footer/Footer'
-import Social from './Component/Social/Social'
-//izbrisati posle samo TEst
-import Test from './Component/Test/Test'
+//Routes
+import Home from './Routes/Home/Home'
+import News from './Routes/News/News'
+import Gallery from './Routes/Gallery/Gallery'
+//Routing
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <div className='home'>
-        <div className='header'>
-          <Logo/>
-          <Menu/>
-        </div>
-        <Title/>
+    <Router>
+      <div className="App">
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/news" element={<News/>}/>
+            <Route path="/gallery" element={<Gallery/>}/>
+        </Routes>
       </div>
-      <div className='content'>
-        <Grid/>
-        <Test/>
-      </div>
-      {/* <Images/> */}
-      <div className='footer'>
-        <Footer/>
-        <Social/>
-      </div>
-    </div>
+    </Router>
   );
 }
 

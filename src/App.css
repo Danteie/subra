@@ -1,5 +1,6 @@
 /* importing font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 *{
   margin: 0;
