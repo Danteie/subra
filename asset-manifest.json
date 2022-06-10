@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/subra/static/css/main.d951b3a9.css",
-    "main.js": "/subra/static/js/main.854f75bc.js",
+    "main.css": "/subra/static/css/main.0f5ff0ee.css",
+    "main.js": "/subra/static/js/main.1c7f0fab.js",
     "static/js/787.e80b3a25.chunk.js": "/subra/static/js/787.e80b3a25.chunk.js",
     "static/media/novosti1.jpg": "/subra/static/media/novosti1.ea8c17f5eb9229c92f65.jpg",
     "static/media/home.jpg": "/subra/static/media/home.2247cf27a23baf9922fb.jpg",
@@ -16,12 +16,12 @@
     "index.html": "/subra/index.html",
     "static/media/fb.webp": "/subra/static/media/fb.e3c6515fafabbb947cd6.webp",
     "static/media/icon-arrow-down.svg": "/subra/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
-    "main.d951b3a9.css.map": "/subra/static/css/main.d951b3a9.css.map",
-    "main.854f75bc.js.map": "/subra/static/js/main.854f75bc.js.map",
+    "main.0f5ff0ee.css.map": "/subra/static/css/main.0f5ff0ee.css.map",
+    "main.1c7f0fab.js.map": "/subra/static/js/main.1c7f0fab.js.map",
     "787.e80b3a25.chunk.js.map": "/subra/static/js/787.e80b3a25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d951b3a9.css",
-    "static/js/main.854f75bc.js"
+    "static/css/main.0f5ff0ee.css",
+    "static/js/main.1c7f0fab.js"
   ]
 }
