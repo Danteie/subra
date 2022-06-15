@@ -6,9 +6,9 @@ function Menu(props) {
     return (
         <div>
             <nav className="nav-menu">
-                <Link to="/news"><a href="test">Novosti</a></Link>
-                <Link to="/gallery"><a href="test">Galerija</a></Link>
-                <a href="test" className="contact">Kontakt</a>
+                <Link to="/news" style={{ textDecoration: 'none' }}><p>Novosti</p></Link>
+                <Link to="/gallery" style={{ textDecoration: 'none' }}><p>Galerija</p></Link>
+                <Link to="/contact" style={{ textDecoration: 'none' }}><p>Kontakt</p></Link>
             </nav>
             <h1 className="hamburger-menu">=</h1>
         </div>

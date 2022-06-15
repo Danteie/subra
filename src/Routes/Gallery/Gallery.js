@@ -11,7 +11,7 @@ function Gallery() {
     return(
       <div className='gallery'>
         <div className='header'>
-           <Logo/>
+            <Logo/>
             <Menu/>
         </div>
         <PhotoAlbum/>

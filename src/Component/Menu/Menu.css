@@ -1,34 +1,32 @@
 nav{
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
     padding: 1.5em;
 }
 
-nav>a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;
-    text-shadow: 3px 3px black;
-}
-
-nav>a:hover{
-    color: green;
-    text-decoration: 2px underline;
-}
-
-
-.contact{
+nav p{
     background-color: white;
-    padding: 1em;
+    padding: 1rem;
     border-radius: 15px;
-    color: black;
-    text-shadow: none;
+    box-shadow: 3px 3px #cf3535;
+}
+
+nav p:hover{
+    background-image: url('./mark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    color: transparent;
 }
 
 .hamburger-menu{
     display: none;
 }
+
+
+
+
 
 
 

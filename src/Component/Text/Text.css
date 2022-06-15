@@ -1,7 +1,6 @@
 .article{
     height: 100%;
     width: 100%;
-    background-color: rgba(78, 148, 79,0.08);
     display: flex;
     justify-content: center;
     align-items: center;
