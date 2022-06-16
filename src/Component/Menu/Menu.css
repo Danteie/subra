@@ -20,6 +20,12 @@ nav p:hover{
     color: transparent;
 }
 
+nav p:active{
+    position: relative;
+    bottom: -3px;
+    box-shadow: none;
+}
+
 .hamburger-menu{
     display: none;
 }

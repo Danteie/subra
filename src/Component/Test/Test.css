@@ -1,6 +1,12 @@
 .news{
     height: 50rem;
     padding-top: 10rem;
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('./pngegg.png');
+    background-color: #87ceeb;
+    background-size: cover;
 }
 
 .news>h1{
@@ -36,11 +42,20 @@
 .text-news>h1{
     margin: 1rem 0;
     font-size: 2rem;
+    color: white;
 }
 
 .text-news>p{
     margin: 1rem 0;
     font-size: 1.5rem;
+    color: white;
+}
+
+.text-news>a{
+    font-size: 1.5rem;
+    color: rgb(157, 180, 243);
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -2,7 +2,7 @@
     display: flex;
     height: auto;
     justify-content: center;
-    align-items: flex-start;
+    align-items: cneter;
     padding: 2%;
     margin: 2%;
     border: 1px solid black;
@@ -25,13 +25,7 @@
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 1500px) {
-    .articles{
-        display: flex;
-        align-items: flex-start;
-    }
 
-}
 
 
 @media only screen and (max-width: 600px) {
