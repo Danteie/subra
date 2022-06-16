@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/subra/static/css/main.001604be.css",
-    "main.js": "/subra/static/js/main.054833ec.js",
+    "main.css": "/subra/static/css/main.53e467b0.css",
+    "main.js": "/subra/static/js/main.735f20bd.js",
     "static/js/787.e80b3a25.chunk.js": "/subra/static/js/787.e80b3a25.chunk.js",
+    "static/media/pngegg.png": "/subra/static/media/pngegg.ab07f88e5bdc5273b98d.png",
     "static/media/novosti1.jpg": "/subra/static/media/novosti1.ea8c17f5eb9229c92f65.jpg",
     "static/media/home.jpg": "/subra/static/media/home.2247cf27a23baf9922fb.jpg",
     "static/media/slika1.jpg": "/subra/static/media/slika1.551f3697327381bf87aa.jpg",
     "static/media/slika3.jpg": "/subra/static/media/slika3.ff689686a3fa0d922c73.jpg",
     "static/media/slika2.jpg": "/subra/static/media/slika2.e8f24191771d21a1c312.jpg",
     "static/media/slika4.jpg": "/subra/static/media/slika4.d53db852a37bdbd106bc.jpg",
+    "static/media/hik-removebg-preview.png": "/subra/static/media/hik-removebg-preview.fc31b47ab7ab596d7987.png",
     "static/media/logo.png": "/subra/static/media/logo.57ab209af9ec9e488adf.png",
     "static/media/insta.webp": "/subra/static/media/insta.6713dc9997db33f2a5bf.webp",
     "static/media/pint.webp": "/subra/static/media/pint.48b18a9d564b4399d293.webp",
@@ -16,12 +18,12 @@
     "index.html": "/subra/index.html",
     "static/media/fb.webp": "/subra/static/media/fb.e3c6515fafabbb947cd6.webp",
     "static/media/icon-arrow-down.svg": "/subra/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
-    "main.001604be.css.map": "/subra/static/css/main.001604be.css.map",
-    "main.054833ec.js.map": "/subra/static/js/main.054833ec.js.map",
+    "main.53e467b0.css.map": "/subra/static/css/main.53e467b0.css.map",
+    "main.735f20bd.js.map": "/subra/static/js/main.735f20bd.js.map",
     "787.e80b3a25.chunk.js.map": "/subra/static/js/787.e80b3a25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.001604be.css",
-    "static/js/main.054833ec.js"
+    "static/css/main.53e467b0.css",
+    "static/js/main.735f20bd.js"
   ]
 }
