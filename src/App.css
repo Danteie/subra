@@ -8,6 +8,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  
+}
+
 .home{
   height: 100vh;
   background-image: url('./Assets/home.jpg');
