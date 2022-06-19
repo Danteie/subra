@@ -48,7 +48,8 @@ nav p:active{
     nav p::before{
         vertical-align: middle;
         content: url('./mark.png');
-        margin-right: 1rem;    
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
     nav p:hover{
@@ -57,7 +58,7 @@ nav p:active{
     }
     .button {
         position: fixed;
-        padding: 2rem;
+        padding: 1.5rem;
         background-color: white;
         border-radius: 50%;
         z-index: 2000;
@@ -81,12 +82,10 @@ nav p:active{
       }
       
       .list {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        list-style: none;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
       }
       
@@ -96,38 +95,12 @@ nav p:active{
         
       }
 
-      .link:link,
-      .link:visited {
-        display: inline-block;
-        font-size: 3rem;
-        font-weight: 300;
-        padding: 1rem 2rem;
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-image: linear-gradient(
-            120deg,
-            transparent 0%,
-            transparent 50%,
-            white 50%
-        );
-        background-size: 220%;
-        transition: all 0.4s;
-        }
-
-        .link:hover,
-        .link:active {
-        color: lightgreen;
-        cursor: pointer;
-        }
+     
 
         /* functionality */
-        .checkbox:checked ~ .background {
-        transform: scale(80);
-        }
         .checkbox:checked ~ .nav {
         opacity: 1;
-        width: 100%;
+        width: 65%;
         right: 0;
         }
 
@@ -143,8 +116,8 @@ nav p:active{
         .icon,
         .icon::before,
         .icon::after {
-        width: 3rem;
-        height: 5px;
+        width: 2rem;
+        height: 4px;
         background-color: rgb(255, 0, 0);
         display: inline-block;
         }
@@ -154,7 +127,7 @@ nav p:active{
         content: "";
         position: absolute;
         left: 0;
-        transition: all 0.2s;
+        transition: all 0.1s;
         }
 
         .icon::before {
