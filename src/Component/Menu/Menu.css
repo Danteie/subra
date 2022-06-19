@@ -51,25 +51,28 @@ nav p:active{
         margin-right: 1rem;    
     }
 
-    
+    nav p:hover{
+        background-image: none;
+        color: black;
+    }
     .button {
-        margin-right: 2rem;
-        position: relative;
+        position: fixed;
+        padding: 2rem;
         background-color: white;
-        height: 4rem;
-        width: 4rem;
         border-radius: 50%;
-        position: relative;
         z-index: 2000;
         box-shadow: 0 1rem 3rem black;
         text-align: center; 
         cursor: pointer;
+        right: 1rem;
+        top:1rem
       }
 
       .nav {
         height: 100vh;
         position: fixed;
         top: 0;
+        background-color: rgba(133, 247, 152, 0.4);
         right: -60vw;
         z-index: 1500;
         opacity: 0;
@@ -142,7 +145,7 @@ nav p:active{
         .icon::after {
         width: 3rem;
         height: 5px;
-        background-color: green;
+        background-color: rgb(255, 0, 0);
         display: inline-block;
         }
 
