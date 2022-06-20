@@ -1,10 +1,10 @@
 .news{
     height: 50rem;
-    padding-top: 10rem;
+    padding: 10rem 1rem 1rem 1rem;
     background-image:  linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ), url('./pngegg.png');
+      ), url('./bg1.png');
     background-color: #87ceeb;
     background-size: cover;
 }
@@ -51,9 +51,19 @@
     color: white;
 }
 
-.text-news>a{
+.text-news-link{
+    width: 100%;
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.text-news-link>a{
     font-size: 1.5rem;
-    color: rgb(157, 180, 243);
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: white; 
+    color: rgb(0, 0, 0);
     text-decoration-color: red;
     text-decoration-thickness: 5px;
 }

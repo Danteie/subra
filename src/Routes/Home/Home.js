@@ -16,11 +16,11 @@ function Home() {
     return(
         <div>
             <div className='home'>
-            <div className='header'>
-                <Logo/>
-                <Menu/>
-            </div>
-            <Title/>
+                <div className='header'>
+                    <Logo/>
+                    <Menu/>
+                </div>
+                <Title/>
             </div>
             <div className='content'>
             <Grid/>

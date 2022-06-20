@@ -8,7 +8,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+.title{
+  display: flex;
   
 }
 
@@ -26,6 +27,7 @@ body{
 
 .header{
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   width: 100%;
