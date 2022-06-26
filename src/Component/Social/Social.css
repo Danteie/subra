@@ -8,7 +8,7 @@
 .social-icon{
     width: 30px;
     height: 30px;
-    color: hsl(212, 27%, 19%);
+    background-color: red;
     opacity: 0.6;
 }
 

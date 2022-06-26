@@ -68,6 +68,12 @@
     text-decoration-thickness: 5px;
 }
 
+.text-news-link>a::before{
+    vertical-align: -60%;
+    content: url('./mark.png');
+    margin-right: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
     .news{
         background-color: rgba(78, 148, 79,0.08);
