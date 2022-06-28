@@ -9,7 +9,7 @@ import pint from './pint.webp'
 function Social(props) {
     return(
         <article className="social">
-            <a href="test"><img alt="fb" src={fb} className="social-icon"/></a>   
+            <a href="https://sr-rs.facebook.com/planinarskiklub.subra" target="_blank" rel="noopener noreferrer"><img alt="fb" src={fb} className="social-icon"/></a>   
             <a href="test"><img alt="instagram" src={insta} className="social-icon"/></a>    
             <a href="test"><img alt="twiter" src={twiter} className="social-icon"/></a>      
             <a href="test"><img alt="pinterest" src={pint} className="social-icon" /></a>   
