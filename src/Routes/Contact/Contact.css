@@ -1,0 +1,30 @@
+
+
+.contact-countainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 2rem
+}
+
+.contact-countainer article{
+    
+    background-image: url('./placeholdermap.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px #cf3535;
+    width: 80%;
+    height: 80%;
+}
+
+.contact-text{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px #cf3535;
+    width: 20%;
+}
+
